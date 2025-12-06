@@ -1,10 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    int a = 10;
-    float b = 3.14;
-    char ch = 'A';
-    printf("Size of int, char and float is %d, %d and %d respectively.\n",sizeof(a),sizeof(ch),sizeof(b));
-
+    printf("Size of int : %zu bytes.\n",sizeof(int));
+    printf("Size of char : %zu bytes.\n",sizeof(char));
+    printf("Size of float : %zu bytes.\n",sizeof(float));
+    printf("Size of double : %zu bytes.\n",sizeof(double));
     return 0;
 }
